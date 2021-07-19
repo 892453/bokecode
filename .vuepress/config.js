@@ -1,7 +1,7 @@
 module.exports = {
-  "title": "我的vuepress博客",
-  "description": "vuepress description",
-  "dest": "public",
+  "title": "Laval",
+  "description": "于无色处见繁华，于无声处听惊雷",
+  "dest": "public", //指定 vuepress build 的输出目录
   "head": [
     [
       "link",
@@ -19,8 +19,8 @@ module.exports = {
     ]
   ],
   "theme": "reco",
-  "themeConfig": {
-    "nav": [
+  "themeConfig": {  
+    "nav": [  //导航栏配置
       {
         "text": "Home",
         "link": "/",
@@ -80,10 +80,10 @@ module.exports = {
         "link": "https://www.recoluan.com"
       },
       {
-        "title": "vuepress-theme-reco",
-        "desc": "A simple and beautiful vuepress Blog & Doc theme.",
-        "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        "link": "https://vuepress-theme-reco.recoluan.com"
+        "title": "博客系统的主题配置",
+        "desc": "包括了主题配置等等一系列内容",
+        "avatar": "/avatar.png",
+        "link": "https://vuepress.vuejs.org/zh/config/#markdown-plugins"
       }
     ],
     "logo": "/logo.png",
@@ -91,7 +91,7 @@ module.exports = {
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
     "author": "zq",
-    "authorAvatar": "/avatar.png",
+    "authorAvatar": "/tou.jpg",
     "record": "xxxx",
     "startYear": "2017"
   },
